@@ -6,6 +6,7 @@ Python plug-in for Autodesk Maya.
 
 
 # Table of contents:
+* [Roadmap](#roadmap)
 * [Installation Guide](#Installation-guide)
 * [User Guide](#user-guide)
   * [Main Control Panel](#the-control-panel)
@@ -50,6 +51,16 @@ Supported Operating Systems:
 * [Terms and Conditions](#terms-and-conditions)
 
 <br/>
+
+### Roadmap:
+  1. Add cross-platform support
+   
+  2. Add Customizable pie menus option
+   
+  4. Create new tools, improve existing ones
+
+  3. Create detailed roadmap.
+
 
 # Installation Guide
 ## Windows 
