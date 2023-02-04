@@ -1,7 +1,13 @@
 # StreamFlow - Plugin for Autodesk Maya
-Python plug-in for Autodesk Maya.
 
-This page is only manual and description, download [Here](https://3dbob.gumroad.com/l/spxrq)
+
+## This repo contains only the description and manual! <br>
+## Download [Here](https://3dbob.gumroad.com/l/spxrq) <br>
+
+## The forementioned link is the only place where the plug-in is published. Downloading the files from another place might expose you to malicious and harmful code.
+
+<br>
+<br>
 
 <img src="./media/img/Main_UI.png" alt="drawing" align="center" width="600"/> <img src="./media/img/Pie_Menu_Example_02.png" alt="drawing" align="center" width="600"/>
 
