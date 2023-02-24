@@ -14,7 +14,7 @@
 
 # Table of contents:
 * [Roadmap](#roadmap)
-* [Installation Guide](#Installation-guide)
+* [Installation Guide](#installation-guide)
 * [User Guide](#user-guide)
   * [Main Control Panel](#the-control-panel)
   * [Extra Popups]()
@@ -139,6 +139,16 @@ Supported Operating Systems:
       Additional Files and folders to delete:
       1. `MMGA.py `from:  `\Users\<USER>\Documents\maya\<MayaVersion>\prefs\scripts\`
       2. `MMGA` folder, from: `\Users\<USER>\Documents\maya\<MayaVersion>\prefs\`
+<br><br>
+
+## Installation-tips
+### General
+* This plug-in gets initiated before maya is fully started, and the errors it might encounter get outputted to the console window, called "Output Window" in Maya. Any error encountered will be printed there.
+
+### Maya2022+:
+* In these versions, Maya is sometimes shipped without pymel, which is a library this plug-in uses and is required in order for it to work.<br>
+  [Here](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2023/ENU/Maya-Scripting/files/GUID-2AA5EFCE-53B1-46A0-8E43-4CD0B2C72FB4-htm.html) is a guide on how to install it on WindowsOS.
+
 <br><br>
 
 # User Guide
