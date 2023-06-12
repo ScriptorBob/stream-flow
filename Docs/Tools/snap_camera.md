@@ -26,6 +26,6 @@ streamflow_fn_.module.camera_snap_to_orto_restore_tgl(0) # of ortho, restore to 
 
 
 
-<a href="[../../README.md#snap-camera](https://github.com/ScriptorBob/stream-flow/blob/main/README.md#snap-camera)">
+<a href="[../../README.md#snap-camera](https://github.com/ScriptorBob/stream-flow#snap-camera)">
     <img src="../../media/icons/Arrow_v2_LEFT.png" alt="BackArrow" height="30">
-</a>  <a href="https://github.com/ScriptorBob/stream-flow/blob/main/README.md#snap-camera"> Back </a> 
+</a>  <a href="https://github.com/ScriptorBob/stream-flow#snap-camera"> Back </a> 
