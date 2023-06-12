@@ -1,7 +1,7 @@
 
 # Snap Camera
 <br>
-<img src="../media/gif/Camera Snap Demo.gif" alt="drawing" align="center" width="1200"/><br><br>
+<img src="../../media/gif/Camera Snap Demo.gif" alt="drawing" align="center" width="1200"/><br><br>
 
 
 Snap Camera is available in [Shortcuts](), and on The Disk.
