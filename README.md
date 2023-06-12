@@ -438,7 +438,7 @@ The button to the right straightens vertices. It will straighten everything acco
 
 ## Peculiar Tools:
 
-### [Snap Camera](./docs/Tools/snap_camera.md#snap-camera)
+### [Snap Camera](./Docs/Tools/snap_camera.md#snap-camera)
 <br>
 <img src="./media/gif/Camera Snap Demo.gif" alt="drawing" align="center" width="1200"/><br><br>
 
