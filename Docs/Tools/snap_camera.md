@@ -24,5 +24,8 @@ streamflow_fn_.module.camera_snap_to_orto_restore_tgl(0) # of ortho, restore to 
 <br>
 <br>
 
-![Back Arrow](../../media/icons/Arrow_v2_LEFT.png) [Return to Homepage](../../README.md)
+![Back Arrow](../../media/icons/Arrow_v2_LEFT.png) [Back](../../README.md)
 
+<a href="../../README.md">
+    <img src="../../media/icons/Arrow_v2_LEFT.png" alt="BackArrow" height="50">
+</a>
