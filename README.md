@@ -443,16 +443,12 @@ The button to the right straightens vertices. It will straighten everything acco
 
 ### [Reload Mesh](./Docs/Tools/reload_mesh.md#reload-mesh)
 
+<br>
 
+# Features:
 
-# Settings
+### [Settings](./Docs/UIs/settings.md#)
 
-<img src="./media/img/Settings_Example.png" alt="drawing" align="center" width="1200"/><br><br>
-
-in Settings you can edit the MainUI navigation keys, its Pie Menu key bindings, the AutoSave status and properties, and the general hotkeys overrides.
-Most of the items here are self-explanatory.<br>
-
-<span style="color: yellow;">Note :</span> Only Hotkey Overrides will be updated right after Save. For everything else to take effect, the plugin needs to be `reloaded`.
 
 <br><br>
 
