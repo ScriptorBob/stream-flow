@@ -14,12 +14,12 @@ This button will self-hide when the cursor leaves its area, and has slightly dif
 <br>
 <br>
 
-the python commands for this are:
+The python commands for this are:
 
 ```python
-streamflow_fn_.module.toggle_ortho() # to toggle between current position and snapped ortho
-streamflow_fn_.module.camera_snap_to_orto_restore_tgl(1) # if camera not ortho, nor snapped to a view, snap, if snapped, make ortho
-streamflow_fn_.module.camera_snap_to_orto_restore_tgl(0) # of ortho, restore to snapped, if snapped, restore to original position
+streamflow_fn_.module.tool_vault.SfCamera.toggle_ortho(0) # to toggle between current position and snapped ortho
+streamflow_fn_.module.tool_vault.SfCamera.cycle_restore_snap_ortho(1) # if camera not ortho, nor snapped to a view, snap, if snapped, make ortho
+streamflow_fn_.module.tool_vault.SfCamera.cycle_restore_snap_ortho(0) # of ortho, restore to snapped, if snapped, restore to original position
 ```
 <br>
 <br>

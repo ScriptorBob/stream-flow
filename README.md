@@ -439,38 +439,10 @@ The button to the right straightens vertices. It will straighten everything acco
 ## Peculiar Tools:
 
 ### [Snap Camera](./Docs/Tools/snap_camera.md#snap-camera)
-<br>
-<img src="./media/gif/Camera Snap Demo.gif" alt="drawing" align="center" width="1200"/><br><br>
 
 
-Snap Camera is available in [Shortcuts](), and on The Disk.
-When activating it from The Disc, it will perform the toggle, and spawn a duplicate of the button from The Disk right under the mouse.<br>
-When making a camera ortho, it will maintain its position and have the same view as before, not obscured by any object behind its back.<br>
+### [Reload Mesh](./Docs/Tools/reload_mesh.md#reload-mesh)
 
-This button will self-hide when the cursor leaves its area, and has slightly different commands:
-  * It takes two wheel strokes to get to do the toggle.
-  * The intermittent stroke snaps the camera to the nearest View Plane, but does not make it orthographic. This is useful when the active camera needs to be cleared of rotation transforms.
-<br>
-<br>
-
----
-
-### Reload Mesh
-<br>
-<img src="./media/img/reloadMesh.png" alt="drawing" align="center" width="1200"/><br><br>
-
-With heavy modeling in Maya comes the bugs. No matter what you do, Maya just can't get rid of some internal trash during mesh creation.<br>
-As the description says, this will export Meshes to disk, reimport, and replace the old mesh with the new one, preserving it's name and position in Outliner.<br>
-Exporting and reimporting mesh as .obj fixes many of the persistent problems, such as maya falsely detecting non-manifold uv or geometry, tools not responding to mesh etc.<br>
-When performed on complex scenes, the resulting scene file size has been reduced sometimes by a third(150MB to  100MB). This is the amount of unneeded and sometimes obtrusive data Maya keeps.
-
-<span style="color: yellow;">Note :</span><br>
-* What it does in the background is export every mesh as .obj and reimport back, one by one. This can be damaging to the SSD in the long run, if done in large numbers (modern SSDs have 3,000 to 100, 000 write cycles per memory block).<br>
-That is the reason why it has customizable import-export link, found in the Settings, named "Mesh Reloader".
-
-* Doing this to a mesh will set its normals to soft, will not preserve color sets, extra uv sets, keyframes, only raw mesh data with uv and it's material.
-<br>
-<br>
 
 
 # Settings
