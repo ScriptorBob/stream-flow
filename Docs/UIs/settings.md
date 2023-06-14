@@ -1,6 +1,6 @@
 # Settings
 <br>
-<img src="../../media/img/Settings_Example.png" alt="drawing" align="center" width="1200"/><br><br>
+<img src="../../media/img/Settings_Example.png" alt="drawing" align="center" width="800"/><br><br>
 
 
 In Settings you can edit the Control Panel navigation keys, its Pie Menu key bindings, the AutoSave status and properties, and the general hotkeys overrides.
