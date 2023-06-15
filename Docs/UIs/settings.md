@@ -45,6 +45,12 @@ In this section you can set and view advanced hotkeys, which can distinguish bet
 <br>
 
 ---
+To open the settings window, you need to click on the `Extras+Settings` button in the Control Panel, or with python:
+```python
+streamflow_fn_.module.settings_ui.SettingsWindow()
+```
+
+---
 
 <span style="color: yellow;">Notes :</span>
 

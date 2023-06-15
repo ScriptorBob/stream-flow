@@ -227,31 +227,6 @@ When enabled, the hotkey "Space" will toggle between the Control Panel and the C
 <hr>
 
 
-## Extra Popups
-<img src="./media/img/Extra_Popups.png" alt="drawing" align="center" width="600"/>
-<br/><br/>
-
->This are Popups that will show instead of the Control Panel, when mouse is hovering over the Outliner or the TimeSlider.
-
->They will disappear once the mouse leaves their area, but can be pinned by double pressing 'Alt'
-
-> They can be moved anywhere on the screen with the mouse while 'Alt' is being pressed.
-
->The Outliner widget contains actions that will, by order: 
-> * Degroup the current item. This will place it right after the former group.
-> * Move item up or down the Outliner. Mapped to central button's Mouse Wheel.
-> * Group in the current item with first group positioned below it.
-
-> The TimeSlider widget contains all of the actions of the built in Maya widget, and has few hotkeys mapped to it, These hotkeys are available only when the cursor hovers over the widget:
-> * Ctrl+X, Ctrl+C, Ctrl+V - cut, copy, paste keyframe.
-> * Space or Shift+Space: Play animation forward or backward.
-> * A or D: Move one key backward or forward.
-> * Shift+A or Shift+D : Set the current frame to min or max of the available frames.
-> * K: Set keyframe
-
-<br>
-<hr>
-
 
 ## Circular Shelf
 
@@ -436,171 +411,18 @@ The button to the right straightens vertices. It will straighten everything acco
 
 ---
 
-## Peculiar Tools:
-
+## Tools:
 ### [Snap Camera](./Docs/Tools/snap_camera.md#snap-camera)
-
-
 ### [Reload Mesh](./Docs/Tools/reload_mesh.md#reload-mesh)
-
+### [Various Functions](./Docs/Tools/various_functions.md)
 <br>
 
 # Features:
-
-### [Settings](./Docs/UIs/settings.md#)
-
-
-<br><br>
-
-
-## Hotkeys
-<br>
-<img src="./media/img/HotkeyUI.png" alt="drawing" align="center" width="1200"/><br><br>
-
-
-The Hotkeys are meant to be used as a supplement to the Maya's native hotkeys. They can do what the native hotkeys can't, and vice versa.
-
-Features:
-> * Context Sensitive<br>
->   There are currently twelve contexts available, such as "UVEditor", "HyperShade", "MainViewport", "TimeSlider", etc.<br>
-> Multiple contexts can be set to a single key.<br>
-
-> * Every command can be set to be repeatable - If true, the command will be added to the Maya's repeatLast list after execution.
-
-> * Will not override the native hotkeys.
-
-> * Can recognize Double Tap.
-
-Explanation:<br>
-Maya's default hotkeys are still valid. When context or a single click are not mapped, the KeyEvent can be sent to Maya for it to be processed there.
-
-
-* Delayed Execution: <br>
-    * Checked:  It will execute the Single Tap command, or send the KeyEvent to Maya if single tap is not set, only when the time waiting for Double Tap is expired and no tap is registered.<br>
-    This means that the Single Tap command will always have a delay in execution, since it will wait for the said amount of time to pass before executing the command.
-    * Unchecked: It will execute the Single Tap command immediately, and wait for a possible Double Tap to occur.<br><br>
-
-    This feature is  used to avoid the Single Tap command to be executed, when the intended action is double tap.<br>
-    This setting will also affect the underlying Maya hotkey execution.
-
-* Double Tap wait time: <br>
-  How many millisecond should the Hotkey wait before sending the event to maya.
-
-* Block Event Propagation: <br>
-  Will mute the underlying Maya hotkey,  even when no command for the context is found.
-
-<span style="color: yellow;">Notes :</span>
-  * If a command is set to the "Global" context, all other contexts in the field are ignored.<br>
-  * In the package, in the `DoubleTap` subfolder, there is a zip file called `Basic_Key_Data-extensive.zip`.<br>
-    This file contains more then 30 defined hotkeys for various contexts. To use it, you need to:<br>
-    * Delete\Rename the old file called `Basic_Key_Data.py`
-    * Unzip the file `Basic_Key_Data-extensive.zip` in the same folder, and make sure it has the same name as the removed file above.
-    * Delete the stored user hotkeys file `HotkeysData.json` from: `\Users\<USER>\Documents\maya\<MayaVersion>\prefs\MMGA`
-    * Run Maya. Now the plugin will read the hotkeys from the new file, and write it to it's program data.
-  
-
-
-# Extra Commands
-
-### This project started as a series of short scripts for hotkeys. Some functions are still best used like that. Here is a list of most of them:<br><br>
-
-    streamflow_fn_.module.P_SlideEdge_Absolute() #Python  
-    streamflow_fn_.module.P_SlideEdge_Relative() #Python
-    
-  > These two functions activate the Maya's slide edge tool, with relative or absolute mode enabled.
----
-    wireFrameOnShaded()   #MEL
-
-  > Toggles WireFrame on shaded 
----
-    WireFrameGlobal_TGL()  #MEL
-
-  > Toggle Wireframe on selected
----
-    Detach_Cut_UV()  #MEL
-
-  > Detaches Geometry by Edge in viewport, Detaches UV in uv editor
----
-    custom_deleteHistory()  #MEL
-
-  > Deletes history of selection, even if selected mesh is in component mode, or just hilighted.<br>
-  >Works with multiple Objects selected.
+### [Settings](./Docs/UIs/settings.md)
+### [Hotkeys](./Docs/Tools/hotkeys.md)
+### [Extra Popups](./Docs/UIs/extra_popups.md)
 
 ---
-    AddLatticeToObject()  #MEL
-
-  >Adds a Lattice to the selection - Mesh or Components, and sets the context to Lattice Point edit.<br>
-  >The Lattice is invisible in the Outliner, has 2x2x2 divisions.<br>
-  >This is intended for a Mesh hot fix, where you need to do a tweak and delete the history.
----
-    ConvertToObject()   #MEL
-    ConvertToVertex()   #MEL
-    ConvertToEdge()     #MEL
-    ConvertToFaces()    #MEL
-  >Converts selection to Object Mode or some component mode. Safe and free of misclicks.<br>
-  >ConvertToVertex will go into "lattice point" or "curve point" mode
- if that's what is selected.
----
-    RotateStuff("X")  #MEL
-    RotateStuff("Y")  #MEL
-    RotateStuff("Z")  #MEL
-
-  >Rotates mesh by its pivot on a given axis.
-  >Rotates component selection taking the manipulator position as the center.<br>
-  >RotateStuff("X") and RotateStuff("Y") will rotate the UV clockwise or counterclockwise when in UV Edtitor.<br>
-  >Rotate angle is 45 degrees.
----    
-    flipMesh_or_UV("X")  #MEL
-    flipMesh_or_UV("Y")  #MEL
-    flipMesh_or_UV("Z")  #MEL
-
-  >Same as RotateStuff() above, but flip the Mesh or UV for the given axis.<br>
-
----
-
-
-
-
----
-    streamflow_fn_.module.CursorOrientation.Toggle()  #Python
-
-  >Toggles The cursor orientation on Move, Rotate and Scale tools to: World, Object, Component modes.
----
-    streamflow_fn_.module.Windows_MNGR.toggle_Editors()  #Python
-
-  >Toggles AttributeEditor or ChannelBox.<br>
-  >If those are detached, places each to the right in the viewport, and rescales the window's heigh to fit the Viewport.
----
-    streamflow_fn_.module.Windows_MNGR.toggleOutliner()  #Python
-
-  > Toggles the Outliner.<br>
-    If the Outliner is detached, it places it to the left in the Viewport and rescales the window's heigh to fit the Viewport.<br>
-  > This action is aware if PolyCount is turned on or off, and rescales the Outliner appropriately.
-  
----
-     streamflow_fn_.module.isolate_things()  #Python
-
-  > Isolates Selection in Viewport or UV selection in the UV Editor,
-    Makes selected node solo in Hypershade.
----
-    streamflow_fn_.module.toggle_ortho()  #Python
-
-  > Makes the current camera ortho and snapped to the nearest plane, or the opposite.<br>
-
----
-    streamflow_fn_.module.Windows_MNGR.min_Maximize()  #Python
-
-  > Minimizes or Maximizes any floating window of Maya.
-  > If performed when mouse over the Viewport, toggles FullScreen mode.
----
-    streamflow_fn_.module.toggle_Default_Mat()  #Python
-
-  > Toggles the displaying of the  default material (lambert) on the active panel.
----
-    TGL_Objects_Materials()  #MEL
-
-  > Toggles the selection between objects, and their materials.
-
 
 <br>
 
