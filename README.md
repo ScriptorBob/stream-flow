@@ -8,8 +8,10 @@
 
 <br>
 <br>
+<div style="display: flex; flex-direction: row;">
 
 <img src="./media/img/Main_UI.png" alt="drawing" align="center" width="600"/> <img src="./media/img/Pie_Menu_Example_02.png" alt="drawing" align="center" width="600"/>
+</div>
 
 
 # Table of contents:
