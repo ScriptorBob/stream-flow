@@ -4,7 +4,7 @@
 <img src="../../media/gif/Camera Snap Demo.gif" alt="drawing" align="center" width="1200"/><br><br>
 
 
-Snap Camera is available in [Shortcuts](), and on The Disk.
+Snap Camera is available as a python command, and on mouse wheel stroke on the widget in the center of the Control Panel.
 When activating it from The Disc, it will perform the toggle, and spawn a duplicate of the button from The Disk right under the mouse.<br>
 When making a camera ortho, it will maintain its position and have the same view as before, not obscured by any object behind its back.<br>
 
