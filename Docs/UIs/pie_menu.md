@@ -39,7 +39,7 @@ The menus can have two shells, inner and outer, button submenus, and an fixed bo
 
 ###  <b>1. Pie Menu -Central Menu Right Click</b>
   
-  >This Menu is accessible only trough the Control Panel, with Right Click on the red button at the center.<br>
+  >This Menu is accessible trough the Control Panel, with Right Click on the red button at the center. Since version `01.01`, it can set to be called trough hotkeys.<br>
 
   >Most of the tools within work with multi mesh selection.<br>
   
@@ -47,6 +47,7 @@ The menus can have two shells, inner and outer, button submenus, and an fixed bo
   > * All of the tools created in Python or Mel, and are performing slower then the built in Maya tools.<br>
   >  For Meshes with high polyCount, it will perform noticeably slower - for example, extract selection will take 7-8 seconds for a mesh of 160 000 polygons, vs 1-1.5 seconds for a regular Extract.<br>
   > Merge Objects will not be so highly affected. <br>
+  
   These are some of the tools that need introduction:
 
   * Tools Duplicate, Merge, Extract:<br><br>
