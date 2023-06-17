@@ -148,7 +148,7 @@ The menus can have two shells, inner and outer, button submenus, and an fixed bo
     ---
 * Tools-Straighten Edge Loops, straighten Vertex: <br><br>
     <img src="../../media/gif/Tool-Straighten edge,vert.gif" alt="drawing" align="center" width="800"/><br><br>
-This button straightens selected Edge loops. When it will find the end points for each edge, and scale down from there. <br>
+This button straightens selected Edge loops, by finding the end points for each edge and scaling down from there. <br>
 The button to the right straightens vertices. It will straighten everything according to the first and the last vertex. <br>
 <span style="color: yellow;">Note :</span> Works with transform constrains enabled - Edge and Surface Constraints.
     <br>
