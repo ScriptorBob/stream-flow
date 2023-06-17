@@ -26,10 +26,12 @@
 <br>
 
 # About
-This plugin is intended for improving workflow efficiency in Autodesk Maya.\
-Big part of it is the UI, but there are also numerous scripts contained within that create new, or extend existing tools.\
-It is predominantly oriented towards modelling, but not limited to it.
+The plugin's purpose is to increase the workflow efficiency in Autodesk Maya, enriching the software with numerous features - user friendly UI widgets, tools, and scripts that create new, or extend existing tools.\
 
+Of all the features it offers, most are oriented towards modeling and scene assembly, which is the author's expertise.
+However, the UI widgets it brings to Maya can improve the workflow of any type of artist that works with the software.
+Much focus has been set of cross-version compatibility, which sadly is not straightforward with many tools, scripts, and plugins.
+StreamFlow supports at least 6 versions of Maya, across two major versions of python and PySide2. One of it's design goals is to serve as a hub for other scripts users may have, by providing many ways to save and call functions, and be able to transfer them easily to the next version of Maya.
 
 
 Tested Maya versions:
