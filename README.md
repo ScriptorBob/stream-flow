@@ -26,7 +26,7 @@
 <br>
 
 # About
-The plugin's purpose is to increase the workflow efficiency in Autodesk Maya, enriching the software with numerous features - user friendly UI widgets, tools, and scripts that create new, or extend existing tools.\
+The plugin's purpose is to increase the workflow efficiency in Autodesk Maya, enriching the software with numerous features - user friendly UI widgets, tools, and scripts that create new, or extend existing tools.
 
 Of all the features it offers, most are oriented towards modeling and scene assembly, which is the author's expertise.
 However, the UI widgets it brings to Maya can improve the workflow of any type of artist that works with the software.
