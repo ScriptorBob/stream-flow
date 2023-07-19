@@ -47,7 +47,7 @@ The buttons inside of the submenu can be moved upwards or downwards. Right click
   * When setting the shell and button number, make sure that the parent button exists.
   * When setting a submenu to a shell button, avoid setting a checkbox or sibling button to the button. This will make the submenu hard to use.
   * If a submenu is too big, it can overlap with other pie menu items that are near the parent button. Using the button numbers 0,1,2,6,7 and avoiding placing submenus on the inner shell when the outer is also used will help you avoid this issue.<br>
-  The submenus will be upgraded in the next version, so that if the parent button is beyond the middle section of the pie menu (button numbers 4,4,5), it will expand upwards.
+  The submenus will be upgraded in the next version, so that if the parent button is beyond the middle section of the pie menu (button numbers 3,4,5), it will expand upwards.
 <br>
 <br>
 

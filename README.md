@@ -24,13 +24,11 @@
 <br>
 
 # About
-The plugin's purpose is to increase the workflow efficiency in Autodesk Maya, by adding to the software with numerous features - user friendly UI widgets, tools, and scripts that create new, or extend existing tools.
+The purpose of the plugin is to enhance the workflow efficiency in Autodesk Maya by providing a wide range of features, including user-friendly UI widgets, tools, and scripts that create new, or extend existing tools.
 
-Of all the features it offers, most are oriented towards modeling and scene assembly, which is the author's expertise.
-However, the UI widgets it brings to Maya can improve the workflow of any type of artist that works with the software.
-Much focus has been set of cross-version compatibility, which sadly is not straightforward with many tools, scripts, and plugins.
-StreamFlow supports at least 6 versions of Maya, across two major versions of python and PySide2. One of its design goals is to serve as a hub for other scripts users may have, by providing many ways to save and call scripts, and be able to transfer them easily to the next version of Maya.1
+While the majority of the features are geared towards modeling and scene assembly, the UI widgets offered by the plugin can improve the workflow for artists of any specialization who work with Maya.
 
+One key focus during the development of the plugin has been ensuring cross-version compatibility. Transferring your hotkeys, settings and scripts to a new version of Maya can sometimes be challenging. StreamFlow addresses this issue by supporting a minimum of six versions of Maya, spanning two major versions of Python and PySide2. A design goal of StreamFlow is to serve as a central hub for users' scripts, providing multiple methods to save and call scripts, as well as facilitating easy transfer to future versions of Maya.
 
 Supported Operating Systems:
   * Windows
@@ -39,10 +37,18 @@ Supported Operating Systems:
 
 ## Roadmap:
   1. Create new tools, improve existing ones
+  
+  2. Create in-app reference image viewer.
+  
+  3. Make the circular mini-shelf in the control panel customizable, along with an editor.
+  
+  4. Enable boolean to be able to work a single object in component mode.
+  
+  5. Add a feature to every button that will open the appropriate documentation immediately when F1 is pressed.
    
-  2. Add cross-platform support
+  6. Add cross-platform support
 
-  3. Create detailed roadmap.
+  7. Create detailed roadmap.
 
 <br>
 

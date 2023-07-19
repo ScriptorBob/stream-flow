@@ -3,7 +3,7 @@
 
 
 # Table of contents:
-* [Description](#about)
+* [Compatibility](#compatibility)
 * [Features](#ui-features)
 * [Tools](#tools)
 * [Installation Guide](#installation-guide)
@@ -12,7 +12,7 @@
 
 <br>
 
-# About
+# Compatibility
 Tested on Maya versions:
 
 | Maya version   |      Status      |  All functionalities |
@@ -42,6 +42,8 @@ Supported Operating Systems:
 ### [Hotkeys](./Docs/Tools/hotkeys.md)
 ### [Settings](./Docs/UIs/settings.md)
 ### [Custom Autosave](./Docs/Tools/autosave.md)
+### [Floating Windows Icons](./Docs/Tools/windows_icons.md)
+
 <br>
 
 
@@ -55,6 +57,7 @@ Supported Operating Systems:
 <br>
 
 ### [Reload Mesh](./Docs/Tools/reload_mesh.md#reload-mesh)
+### [Rectangulate UV](./Docs/Tools/rectangulate_uv.md)
 ### [Snap Camera](./Docs/Tools/snap_camera.md#snap-camera)
 ### [Various Functions](./Docs/Tools/various_functions.md)
 <br>
@@ -91,8 +94,9 @@ Supported Operating Systems:
 > * When installed, Maya will continue to use the files directly from where they were extracted. Extract to a meaningful location and do not delete afterwards.
 > * The newer version is incompatible with the previous one, and in order for this plugin to work, you need to remove the folder named `MMGA`, which is located here: ` \Users\<USER>\Documents\maya\<MayaVersion>\prefs\` <br>
 > You can't retain the settings from the old version, because most of the user function names are changed in the newer. Versions to come should be compatible with this one.<br>
-> For more info on how to uninstall the plugin, see the uninstalation guide.
-<br>
+> For more info on how to uninstall the plugin, see the uninstalation guide.<br>
+> Avoid installing the plug-in from network drives. This can slow the starting of Maya, and can even lead to instability and crashes. The reason for this is still unknown. Best practice would be to place it here:  `\Users\<USER>\Documents\maya\<MayaVersion>`
+, or here: `\Users\<USER>\Documents\maya\`, if you use it for more then one Maya version<br>
 
 ## Reload Guide
 ### Windows

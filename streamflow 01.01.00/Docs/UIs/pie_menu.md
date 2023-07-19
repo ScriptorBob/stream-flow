@@ -5,41 +5,40 @@
 
 The Pie Menu is a inspired by Maya's marking menu and Blender's pie menu, although it differs from both of them.
 
-Pie Menu buttons can have a sibling right next to them, an optionBox, or a submenu that pops up when button is focused.
+Pie Menu buttons can have an extra widget to the right: sibling, an optionBox or a submenu that pops up when button is focused.
 
-The buttons are autofocused, the cursor doesn't need to hover over them in order to execute its command.
+The buttons are automatically selected, so the cursor doesn't need to hover over them to execute their commands.
 
-The pie menu can be called with a mouse click in the Control Panel, or from keyboard.
+Pie Menus can be accessed by clicking in a parent button in the Control Panel or by using keyboard shortcuts.
 
 If the key is released without moving the cursor, the menu will stay visible.
 
-If the cursor is moved a little from the point of origin to the circle boundary, the menu will close without executing a command.
+If the cursor is slightly moved away from the center to the edge of the circle, the menu will close without executing a command.
 
-The menus can have two shells, inner and outer, button submenus, and an fixed boxes.
-
+The menus can consist of two layers, an inner and outer shell where each button can have a submenu, and fixed boxes which can be placed to custom locations.
 
 ### <b>How buttons autofocus works:</b>
 
->There is an invisible circular boundary around the center of the menu. If no modifier is pressed, and the cursor has crossed the boundary, the outer shell will come into focus.
->Alternatively, if the cursor is inside the boundary, and Alt Modifier is pressed, the outer shell will come into focus.
+>There is an invisible circular boundary around the center of the menu. If no modifier key is pressed and the cursor crosses the boundary, the outer shell will become focused.<br>
+>Alternatively, if the cursor is inside the boundary and the Alt modifier key is pressed, the outer shell will become focused.
 
->If Shift Modifier is being pressed, the menu will focus only on the button to the right of the primary one - a sibling or an optionBox.\
->Shift Modifier press takes into consideration if Alt Modifier is also pressed, or if the shell boundary is crossed.
+>If the Shift modifier key is pressed, the menu will only focus on the button to the right of the primary one, whether it's a sibling or an optionBox.<br>
+>The Shift modifier key takes into account whether the Alt modifier key is also pressed or if the shell boundary is crossed.
 
->Menus can have empty spaces instead of buttons. If a space is encountered, the menu will autofocus on the nearest button on the virtual circle.
+>Menus can contain empty spaces instead of buttons. When an empty space is encountered, the menu will automatically focus on the nearest button on the circle.
 
->The menu itself is an invisible window. When getting enough far away from the origin point, It will disengage its autofocus.\
->When activated with mouse click, and if the click is not released after activation, it will continue to autofocus even after leaving the window's borders.
-
+>The menu itself is an invisible window. When the cursor moves far away enough from the origin point, the menu will disengage its autofocus.<br>
+>If the menu is activated with a mouse click and the click is not released after activation, it will continue to autofocus even after leaving the borders of the window.
 
 ## Usage
-The created pie menus will be displayed in the appropriate section in the plugin settings. There you can bind a hotkey to a pie menu, which will allow you to call the pie menu with a hotkey from the control panel.<br>
-Alternatively, you can obtain the code that would activate the particular menu which can allow you to call the menu with the Maya's native hotkeys or even from the shelf.<br>
-This is how a menu call looks like in python: <br>
+
+The pie menus you create will be displayed in the corresponding section of the plugin settings. There, you can assign a hotkey to a pie menu, enabling you to call it with a hotkey from the control panel.<br>
+Alternatively, you can obtain the code that activates a specific menu, allowing you to call the menu using Maya's native hotkeys or even from the shelf.<br>
+Here's an example of how to call a menu using Python:
 
     streamflow_fn_.module.RadialMenuWindow.call_pie_menu('Add_Objects_Pie_Menu')
 
-To call a specific menu, you need to replace the `Add_Objects_Pie_Menu` part with the name of the new menu, which can be viewed in the plugin settings.
+To call a specific menu, `Add_Objects_Pie_Menu` in the code above should be replaced with the name of the new menu which can be viewed in the plugin settings int he pie menu section.
 
 
 <br>
