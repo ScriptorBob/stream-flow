@@ -53,8 +53,8 @@ Supported Operating Systems:
 <br>
 
 # Versions:
-### [StreamFlow-1.00.01-Beta](streamflow%2001.00.01-Beta/v_01_00_01_README.md)
-### [StreamFlow-1.1.00-Beta](streamflow%2001.01.00/v_01_01_00_README.md)
+### [StreamFlow-1.0](streamflow%2001.00.01-Beta/v_01_00_01_README.md)
+### [StreamFlow-1.1](streamflow%2001.01.00/v_01_01_00_README.md)
 
 <br>
 

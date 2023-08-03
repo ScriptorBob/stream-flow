@@ -1,10 +1,10 @@
-# StreamFlow - Plugin for Autodesk Maya (v01.01.00)
-
+# StreamFlow 01.1.01-Beta
 
 
 # Table of contents:
 * [Compatibility](#compatibility)
 * [Features](#ui-features)
+* [Changelog](#changelog)
 * [Tools](#tools)
 * [Installation Guide](#installation-guide)
 * [Reporting bugs and asking questions](#reporting-bugs-and-asking-questions)
@@ -23,15 +23,25 @@ Tested on Maya versions:
 | 2020    |   working     |   mostly tested   |
 | 2022    |   working     |   mostly tested   |
 | 2023    |   working     |   mostly tested   |
-| 2024    |   unknown     |   not tested      |
+| 2024    |   working     |   untested      |
 
 
 Supported Operating Systems:
   * Windows
 
-
-
 <br/>
+
+<br>
+
+# Changelog
+This release (1.01) brings significant enhancements to the plugin, emphasizing critical bug fixes, general improvements, and the addition of new tools.
+Some of the most notable tools are "Pie Menu Editor", "Quick Menu", 'Transform Parts', "Selection Asset" and "Curve Tools". <br>
+Much attention has ben directed towards improving the internal project architecture, which improves scalability enabling easier and faster updates. <br>
+
+In this release, marked as version 1.01, substantial changes have been made that render it largely incompatible with the previous iteration of the plugin. However, all upcoming versions within this specific version line will be fully compatible with the current version. Simply running the installer will seamlessly update the plugin. <br>
+If you are updating from lower version line, make sure to completely uninstall the plugin before running the installer on this version line.
+
+Click [here](./Docs/changelog.md) for a detailed changelog. <br>
 
 
 # Features:
@@ -43,7 +53,6 @@ Supported Operating Systems:
 ### [Settings](./Docs/UIs/settings.md)
 ### [Custom Autosave](./Docs/Tools/autosave.md)
 ### [Floating Windows Icons](./Docs/Tools/windows_icons.md)
-
 <br>
 
 

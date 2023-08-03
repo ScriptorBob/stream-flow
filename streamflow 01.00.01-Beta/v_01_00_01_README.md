@@ -1,10 +1,5 @@
-# StreamFlow - Plugin for Autodesk Maya
+# StreamFlow 1.0.01-Beta
 
-
-## This repo contains only the description and manual! <br>
-## Download [Here](https://3dbob.gumroad.com/l/spxrq). <br>
-
-## The forementioned link is the only place where the plug-in is published. Downloading the files from another place might expose you to malicious and harmful code.
 
 <br>
 <br>

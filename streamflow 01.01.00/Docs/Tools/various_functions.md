@@ -18,7 +18,7 @@ This feature was created in order to address the slow toggling of the editors wh
 ```python
 streamflow_fn_.module.GeneralWindowManager.toggle_outliner()  #python
 ```
-This function toggles the Outliner, and if it is detached, it will place it to the left of the viewport. It will automatically rescale the Outliner if poly count info is turned on.
+This function toggles the Outliner, and if it is detached, it will place it to the left of the viewport. It will automatically rescale the Outliner window if poly count info is turned on.
 
 <br><br>
 
@@ -31,6 +31,20 @@ streamflow_fn_.module.GeneralUtilities.poly_slide_edge_relative() #python
 ```
 
 These two functions activate the Maya's slide edge tool, with relative or absolute mode enabled.
+
+<br><br>
+
+---
+
+
+```python
+streamflow_fn_.module.Transform.move_sel_to_from_camera(1)    #Python
+```
+
+This function moves the selection closer of further to the camera depending on the value you provide in it.<br>
+When in object mode, all of the transforms of the parent need to be frozen in order for the tool to work properly.<br>
+It works correctly in component mode regardless of the state of the parent transforms.
+
 
 <br><br>
 
@@ -64,6 +78,17 @@ Toggle global wireframe overlay.
 <br><br>
 
 ---
+
+```python
+streamflow_fn_.module.SfCamera.toggle_camera_lock()
+```
+
+Locls/Unlocks the currently active camera 
+
+<br> <br>
+
+---
+
 
 ```MEL
 Detach_Cut_UV()  //MEL
@@ -196,6 +221,9 @@ Toggles the selection between objects and their materials.
   
 <br>
 <br>
+
+
+
 
 
 ---
