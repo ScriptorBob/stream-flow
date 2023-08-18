@@ -6,7 +6,7 @@ When modeling a mesh for a longer time, Maya tends to accumulate unnecessary dat
 This 'history' will not get deleted with the deleteHistory command, and neither mesh cleanup can fix it.<br>
 This extra data gets saved when the scene is saved, so it is not removed even then.<br>
 Some of the things using this kind of mesh can have these consequences:
-* The time rendering such object can be even x4 times slower then if a clean mesh was used.<br>
+* The time rendering such object can be even x4 times slower than if a clean mesh was used.<br>
 * Can lead to frequent scene crashes at render time.<br>
 * Can slow down the responsiveness of a rigged mesh, so that the animation process is slow and difficult.<br>
 * Maya can falsely detect non-manifold uv or geometry where there is none.<br>
@@ -34,7 +34,7 @@ That is the reason why it has customizable import-export link, found in the Sett
 ---
 This function reads the data from the mesh, creates a new one using the Maya Api, and replaces the old one with it.
 
-* About x40 times faster then the `.obj` way, which itself is relatively fast.
+* About x40 times faster than the `.obj` way, which itself is relatively fast.
 * Semi-Undoable. Undoing this action will not result in an error like with the previous function, but the newly created meshes will not be registered in the Undo stack. It will undo the old objects deletion, which will result with duplicate overlapping meshes.
 * It reads all of the data and holds them into the memory in order to recreate the new object. This means that it needs more memory to operate, which can be a problem if the polyCount is in the millions. However, it is not damaging to the SSD.
 

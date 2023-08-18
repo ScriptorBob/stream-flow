@@ -44,7 +44,7 @@ The menus can have two shells, inner and outer, button submenus, and an fixed bo
   >Most of the tools within work with multi mesh selection.<br>
   
   > <span style="color: yellow;">Note : </span><br>
-  > * All of the tools created in Python or Mel, and are performing slower then the built in Maya tools.<br>
+  > * All of the tools created in Python or Mel, and are performing slower than the built in Maya tools.<br>
   >  For Meshes with high polyCount, it will perform noticeably slower - for example, extract selection will take 7-8 seconds for a mesh of 160 000 polygons, vs 1-1.5 seconds for a regular Extract.<br>
   > Merge Objects will not be so highly affected. <br>
   
@@ -85,7 +85,7 @@ The menus can have two shells, inner and outer, button submenus, and an fixed bo
        * If one Edge is selected, it bridges the two neighboring Edges that lie on the Mesh Border, and selects the newly created one
        * If two neighboring Edges are selected, It performs polyAppend on the two Edges.
        * If two edges are selected, and they are not neighbors, it performs a simple bridge.
-       * If more then two are selected, performs bridge on all of them.
+       * If more than two are selected, performs bridge on all of them.
   <br><br>
       <hr>
     * Connect Vertex: <br><br>
@@ -99,9 +99,9 @@ The menus can have two shells, inner and outer, button submenus, and an fixed bo
 
       > If they are not neighbors: MultiCut.
 
-      > If both Vertex are on Border: Fill hole, then polyConnectComponents, or MultiCut.
+      > If both Vertex are on Border: Fill hole, then polyConnectComponents or MultiCut.
 
-      > If more then two Vertex are selected:
+      > If more than two Vertex are selected:
         > * If the Verts are on the same face, it will connect every Vertex with the last one.
         > * If they are not neighbors, it will connect every Vertex with the Next one in Selection.<br>
 

@@ -105,7 +105,7 @@ Click [here](./Docs/changelog.md) for a detailed changelog. <br>
 > You can't retain the settings from the old version, because most of the user function names are changed in the newer. Versions to come should be compatible with this one.<br>
 > For more info on how to uninstall the plugin, see the uninstalation guide.<br>
 > Avoid installing the plug-in from network drives. This can slow the starting of Maya, and can even lead to instability and crashes. The reason for this is still unknown. Best practice would be to place it here:  `\Users\<USER>\Documents\maya\<MayaVersion>`
-, or here: `\Users\<USER>\Documents\maya\`, if you use it for more then one Maya version<br>
+, or here: `\Users\<USER>\Documents\maya\`, if you use it for more than one Maya version<br>
 
 ## Reload Guide
 ### Windows

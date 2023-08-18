@@ -36,7 +36,7 @@ Features:
 <span style="color: yellow;">Notes :</span>
   * If a command is set to the "Global" context, all other contexts in the field are ignored.<br>
   * In the package, in the `_extras` subfolder, there is a file called `HotkeysData.json`.<br>
-    This file contains more then 30 defined hotkeys for various contexts. To use it, you need to:<br>
+    This file contains more than 30 defined hotkeys for various contexts. To use it, you need to:<br>
     * Replace the default `HotkeysData.json` located at `\Users\<USER>\Documents\maya\<MayaVersion>\prefs\MMGA`  with the one from the `_extras` folder.
     * Run Maya. Now the plugin will load the advanced hotkeys.
   * These hotkeys can interfere with the script editor's popup widget, and with the dropdown menus found in the Attribute editor for example. Instead of focusing on the letter pressed in the dropdown, they will execute the command set for the said window. This is a bug that will be fixed in later version.

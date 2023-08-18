@@ -70,7 +70,7 @@ In Edge Mode, SmartConnect does different things, in different circumstances:
    * If one Edge is selected, it bridges the two neighboring Edges that lie on the Mesh Border, and selects the newly created one.
    * If two neighboring Edges are selected, It performs polyAppend on the two Edges.
    * If two edges are selected, and they are not neighbors, it performs a simple bridge.
-   * If more then two are selected, performs bridge on all of them.
+   * If more than two are selected, performs bridge on all of them.
    * If a whole border is selected, it will try to close the border as someone would with the bridge tool in Maya.<br>
       However, It requires a clean topology around the selection, and can make bad judgment. 
 <br>
@@ -87,7 +87,7 @@ As with Edge Mode, does different things depending on the selection:
   * If they are not neighbors: MultiCut.
   * If both Vertex are on Border: Fill hole, then polyConnectComponents, or MultiCut.
 
-  If more then two Vertex are selected:<br>
+  If more than two Vertex are selected:<br>
   * If the Verts are on the same face, it will connect every Vertex with the last one.
   * If they are not neighbors, it will connect every Vertex with the Next one in Selection.<br>
 
@@ -151,7 +151,7 @@ The button to the right straightens vertices. It will straighten everything sele
 ## Split Edge Rings
 
 This tool will perform the `split edge` function from Maya, but for each edge in the selection. <br>
-This operation is computationally heavy, and can take a lot of time to be performed, and even freeze Maya if the selection is substantially bigger then 60.<br>
+This operation is computationally heavy, and can take a lot of time to be performed, and even freeze Maya if the selection is substantially bigger than 60.<br>
 Due to this, it will show a warning if the selection has more than 60 edges, although it can perform the operation even with 200+ edges. 
 
 

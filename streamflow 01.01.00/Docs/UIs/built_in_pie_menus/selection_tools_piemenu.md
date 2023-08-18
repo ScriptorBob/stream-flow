@@ -79,7 +79,7 @@ It will do different things in different circumstances:
   
  *  ><span style="color: yellow;">Note :</span>
     >* Will try to find the edges for every object in the selection, even if the objects are merged.
-    >* Using this tool in object mode can be signifficantly slower then in vertex mode if the objects are high-poly.
+    >* Using this tool in object mode can be significantly slower than in vertex mode if the objects are high-poly.
 <br>
 
 

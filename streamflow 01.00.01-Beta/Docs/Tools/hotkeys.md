@@ -35,7 +35,7 @@ Features:
 <span style="color: yellow;">Notes :</span>
   * If a command is set to the "Global" context, all other contexts in the field are ignored.<br>
   * In the package, in the `DoubleTap` subfolder, there is a zip file called `Basic_Key_Data-extensive.zip`.<br>
-    This file contains more then 30 defined hotkeys for various contexts. To use it, you need to:<br>
+    This file contains more than 30 defined hotkeys for various contexts. To use it, you need to:<br>
     * Delete\Rename the old file called `Basic_Key_Data.py`
     * Unzip the file `Basic_Key_Data-extensive.zip` in the same folder, and make sure it has the same name as the removed file above.
     * Delete the stored user hotkeys file `HotkeysData.json` from: `\Users\<USER>\Documents\maya\<MayaVersion>\prefs\MMGA`

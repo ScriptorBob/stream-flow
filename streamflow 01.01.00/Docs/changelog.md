@@ -21,7 +21,7 @@
 
 * Pie Menu: <br>
     * when "Shift modifier" is pressed, if the angle of the mouse doesn't directly match the button, it's extra_widget will not be focused
-    * Pressing shift while distance is greater then inner shell changes the indicator radius to internal
+    * Pressing shift while distance is greater than inner shell changes the indicator radius to internal
 
 * Duplicate Mesh:
     
