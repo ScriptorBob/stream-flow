@@ -19,7 +19,7 @@ The menus can consist of two layers, an inner and outer shell where each button 
 
 ### <b>How buttons autofocus works:</b>
 
->There is an invisible circular boundary around the center of the menu. If no modifier key is pressed and the cursor crosses the boundary, the outer shell will become focused.<br>
+>There is an invisible circular boundary between the inner and the outer buttons in the menu. If no modifier key is pressed and the cursor crosses the boundary, the outer shell will become focused.<br>
 >Alternatively, if the cursor is inside the boundary and the Alt modifier key is pressed, the outer shell will become focused.
 
 >If the Shift modifier key is pressed, the menu will only focus on the button to the right of the primary one, whether it's a sibling or an optionBox.<br>
@@ -38,7 +38,7 @@ Here's an example of how to call a menu using Python:
 
     streamflow_fn_.module.RadialMenuWindow.call_pie_menu('Add_Objects_Pie_Menu')
 
-To call a specific menu, `Add_Objects_Pie_Menu` in the code above should be replaced with the name of the new menu which can be viewed in the plugin settings int he pie menu section.
+To call a specific menu, `Add_Objects_Pie_Menu` in the code above should be replaced with the name of the new menu. All the names of the existing pie menus can be viewed in the plugin settings in the pie menu section.
 
 
 <br>

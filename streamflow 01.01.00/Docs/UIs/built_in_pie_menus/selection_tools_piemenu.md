@@ -21,7 +21,7 @@ It contains customized tools that greatly empower the selection process:
 ## Convert to \#
 There are four buttons present in the pie menu, for each mesh conversion type.<br>
 These tools will items from one type of selection into another.<br>
-The reason for its creation is because Maya's native conversions are either tricky to perform with the marking menus, or are prone to mistakes in the viewport.<br>
+The reason for its creation is because Maya's native conversions are tricky to perform with the marking menus and are prone to mistakes in the viewport.<br>
 There are few things to note:
 * Converting from object mode will select all of the components of the objects, be it vertices, edges, or faces.
 * If a selection is a curve or a lattice, the `Convert To Vertex` tool will go into cv or lattice point selection mode respectively.
