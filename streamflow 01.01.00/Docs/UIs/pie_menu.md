@@ -38,7 +38,7 @@ Here's an example of how to call a menu using Python:
 
     streamflow_fn_.module.RadialMenuWindow.call_pie_menu('Add_Objects_Pie_Menu')
 
-To call a specific menu, `Add_Objects_Pie_Menu` in the code above should be replaced with the name of the new menu. All the names of the existing pie menus can be viewed in the plugin settings in the pie menu section.
+To call a specific menu, `Add_Objects_Pie_Menu` in the code above should be replaced with the name of the new menu. All the names of the existing pie menus can be viewed in the plugin settings, in the pie menu section.
 
 
 <br>
